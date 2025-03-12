@@ -1,0 +1,192 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins";
+}
+
+nav {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: auto;
+}
+
+.header {
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.58);
+}
+
+.loginbtn {
+    /* margin-right: 20px; */
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    width: 40%;
+}
+
+.navbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.navbuttons li {
+    list-style: none;
+}
+
+.navbuttons li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.search_icon {
+    background-color: black;
+}
+
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.hero_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero_heading {
+    font-size: 700;
+    font-weight: 500;
+    
+}
+
+.hero_discription {
+    font-size: 400;
+    font-weight: 400;
+}
+
+.hero_input input {
+    padding: 18px 0px;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+}
+
+.search_main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid #eaeaf1;
+    background-color: #f7f7f7;
+    border-radius: 35px;
+    padding: 0px 20px;
+}
+
+.search_icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+.search_icon img {
+    size: 30px;
+}
+
+.hero_tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hero_tabs button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #DCEFDF;
+}
+
+.features {
+    margin: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px;
+    background-color: #F7F7F7;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #DBDBE0 1px solid;
+    border-radius: 15px;
+    gap: 16px;
+    padding: 15px 20px;
+
+}
+
+.features_heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.features_cards {
+    display: flex;
+}
+
+.card_icon {
+    display: flex;
+    gap: 5px;
+}
+
+.features_cards {
+    display: grid;
+    grid-template-columns: Repeat(3, 1fr);
+    gap: 20px;
+
+}
+.underline{
+    width: 100px;
+    background: black;
+    height: 3px;
+    margin: auto;
+    border-radius: 3px;
+}
+.features_heading h1{
+    margin: 5px 0px;   
+}
+.features_heading h3{
+    font-weight: 300;
+}
